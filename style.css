@@ -20,19 +20,28 @@ body{
 }
 
 .container > div{
-    padding: 20px;
+    padding: 15px;
 }
 
 .sidebar{
     grid-area: side;
     background-color: rgb(9, 132, 204);
     color: white;
+    fill: white;
 }
 
 .logo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.logo-img{
+     width: 40px;
+     fill: white;
+}
+
+.icons{
+    width: 20px;
 }
 
 .logo h1{
@@ -46,6 +55,11 @@ body{
     justify-content: center;
     margin-top: 30px;
 }
+
+.icn{
+    width: 20px;
+}
+
 .icon-text{
     display: flex;
     align-items: center;
@@ -56,7 +70,7 @@ body{
 
 .icon-text p,
 .logo h1{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
@@ -68,14 +82,25 @@ body{
 
 .navbar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: -13px 20px;
 }
 
+.profile-icn{
+    width: 45px;
+}
+
+.large-icn{
+    width: 60px;
+    margin-right: 10px;
+}
+
 .form-input{
     width: 500px;
+    height: 25px;
     background-color: rgb(234, 241, 247);
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid rgb(234, 241, 247);
     margin-left: 20px;
     margin-right: 150px;
@@ -83,6 +108,13 @@ body{
 
 .avatarNavbar, .avatarWelcome{
     margin: 0 20px;
+}
+
+.nav-profile{
+    min-width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .welcome{
@@ -148,6 +180,11 @@ body{
     display: flex;
     justify-content: end;
     margin-top: auto;
+    margin-right: 10px;
+}
+
+.rightIcons .icn{
+    margin-left: 20px;
 }
 
 .projects h3, .article h3{
@@ -187,12 +224,14 @@ body{
 }
 
 .trending{
-    height: 85%;
+    height: 74%;;
+
 }
 
 .trend{
     display: flex;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .col{
@@ -204,4 +243,7 @@ body{
 .col p{
     font-size: 14px; 
     color: grey;
+}
+.trend-icn{
+    width: 35px;
 }
